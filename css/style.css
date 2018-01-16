@@ -28,12 +28,12 @@
             width: 100%;
             height: 130px;
             text-align: center;
-            background-color: red;
+            background-color: #282828;
         } 
         nav a{
             text-decoration: none;
             padding: 15px;
-            font-size: 1.1em;
+            font-size: 1em;
             color: #fff;
             font-family: 'Muli', sans-serif;
         }
@@ -44,7 +44,7 @@
         }
         #introducao{
             width: 100%;
-            height: 570px;
+            height: 250px;
             padding-top: 50px; 
             text-align: center;
             background-color: #282828;
@@ -86,7 +86,7 @@
             }  
         #servicos h1{
             font-size: 2em;
-            padding-top: 60px;
+            padding-top: 30px;
             color: #282828;
         }
         #servicos h2{
@@ -98,10 +98,9 @@
             font-size: 1em;
             padding-top: 10px;
             color: #282828;
-            text-align: justify;
         }
         .servicos{
-            margin-top: 30px;
+            margin-top: 20px;
             width: 100%;
             padding: 20px 50px;
         }
