@@ -1,0 +1,107 @@
+/* SOCIAL MEDIA */
+.social-media ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .social-media li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .social-media li a {
+    background: ghostwhite;
+    color: ghostwhite;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+    padding: 0.625rem 0 0;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    border-radius: 2px; 
+  }
+  .social-media li a i:before {
+    text-shadow: 0 0 2px #222;
+  }
+  .social-media li a:hover:after, .social-media li a:hover:before {
+    display: block;
+    opacity: 1;
+  }
+  .social-media li a:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #282828;
+    content: '';
+    height: 0;
+    left: 10px;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    bottom: -15px;
+    width: 0;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li a:after {
+    background: #282828;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.75rem;
+    left: -22px;
+    content: attr(aria-title);
+    padding: 0.25rem;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    text-align: center;
+    text-decoration: none;
+    bottom: -35px;
+    width: 80px;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li.behance a {
+    background: #d05a20;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li.behance a:hover, .social-media li.behance a:active, .social-media li.behance a:focus {
+    background: #282828;
+  }
+  .social-media li.facebook-f a {
+    background: #d05a20;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li.facebook-f a:hover, .social-media li.facebook-f a:active, .social-media li.facebook-f a:focus {
+    background: #282828;
+  }
+  .social-media li.github a {
+    background: #d05a20;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li.github a:hover, .social-media li.github a:active, .social-media li.github a:focus {
+    background: #282828;
+  }
+  .social-media li.linkedin a {
+    background: #d05a20;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li.linkedin a:hover, .social-media li.linkedin a:active, .social-media li.linkedin a:focus {
+    background: #282828;
+  }
+  .social-media li.youtube a {
+    background: #d05a20;
+    -webkit-transition: all 0.125s linear;
+    transition: all 0.125s linear;
+  }
+  .social-media li.youtube a:hover, .social-media li.youtube a:active, .social-media li.youtube a:focus {
+    background: #282828;
+  }
+  
+/* SOCIAL MEDIA */

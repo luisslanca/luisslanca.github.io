@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luís Lança</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/social_media.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:800" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <header>
+        <a href="index.html"><img src="imgs/logo.png" alt="LOGO"></a>
+        <nav>
+            <a href="#servicos" class="scroll">Serviços</a>
+            <a href="#portfolio" class="scroll">Portfólio</a>
+            <a href="#contato" class="scroll">Contato</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+        <div id="introducao">
+            <h1>Desenvolvedor Web</h1>
+            <h2>Criando sites com
+                <span class="typewrite" data-period="1700" data-type='[ "qualidade","elegância","segurança"]'>
+                    <span class="wrapp"></span>  
+                </span>        
+            </h2>
+            <a href="#servicos" class="scroll"><p>Ver Portfólio</br><i class="fa fa-angle-down" style="font-size:24px"></i></p></a>
+        </div>
+    
+    <div id="main">
+        <section id="servicos">
+            <h1>Serviços</h1>
+
+            <div class="servicos">
+                <img src="imgs/responsive5.png" alt="ICON">
+                <h2>Criação de Sites</h2>
+                <p>Desenvolvimento de websites personalizados que rodam em todas as plataformas e dispositivos.</p>
+            </div>  
+            <div class="servicos">
+                <img src="imgs/wpc.png" alt="ICON">
+                <h2>WordPress</h2>
+                <p>Com essa ferramenta é possível que o próprio usuário altere seu website / blog futuramente.</p>
+            </div> 
+            <div class="servicos">
+                <img src="imgs/design.png" alt="ICON">
+                <h2>Design</h2>
+                <p>Garantir a harmonia das cores é primordial para a navegação do usuário, por isso é necessário nos atentarmos a ela.</p>
+            </div>  
+
+        </section>
+
+        <section id="portfolio">
+            <h1>Projetos</h1>
+            <div class="box"><img src="imgs/nike.jpg" alt=""></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+
+    </div>
+
+    <div id="contato">
+        <h1>Contato</h1>
+        <form id="form" name="input" action="php/contato.php" method="post">
+            <input type="text" placeholder="Nome:" name="nome" /><br><br>
+            <input type="text" placeholder="Email:" name="email" /><br><br>
+            <textarea placeholder="Mensagem:" name="mensagem"></textarea><br><br>
+            <input type="submit" value="ENVIAR" />
+        </form>
+        <p><a href="mailto:contato@luislanca.com" class="mail">contato@luislanca.com</a></p>
+                    
+        <div class='social-media'>
+           <a href="https://www.facebook.com/lancadesigner" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a> 
+           <a href="https://www.linkedin.com/in/luis-lanca/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px"></i></a> 
+           <a href="https://github.com/luisslanca" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a> 
+           <a href="https://www.meetup.com/pt-BR/members/235719345/?op=&memberId=235719345" target="_blank"><i class="fa fa-meetup" style="font-size:24px"></i></a> 
+        </div>
+    </div>
+    <section id="sobre">
+        <h1>Sobre Mim <i class="fa fa-arrow-circle-right" style="font-size:24px"></i></h1>
+    </section>
+    
+    <footer>
+        <p>Copyright &copy; 2018. Design by <a href="">Luís Lança</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,558 @@
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+        font-size: 100%;
+        border: none;
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+    img{
+        max-width: 100%;
+    }
+    #container{
+        width: 100%;
+        font-family: 'Muli', sans-serif;
+        background-color: ghostwhite;
+    }
+    /* .f-nav{
+        z-index: 9999;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    } */
+    @media screen and (min-width:320px){
+        header{
+            width: 100%;
+            height: 130px;
+            text-align: center;
+            background-color: red;
+        } 
+        nav a{
+            text-decoration: none;
+            padding: 15px;
+            font-size: 1.1em;
+            color: #fff;
+            font-family: 'Muli', sans-serif;
+        }
+        nav a:hover{
+            color: #d05a20;
+            transition: 0.3s;
+            border-bottom: 2px #fff solid;
+        }
+        #introducao{
+            width: 100%;
+            height: 570px;
+            padding-top: 50px; 
+            text-align: center;
+            background-color: #282828;
+            }
+            #introducao a{
+                text-decoration: none;
+            }
+            #introducao h1{
+                font-size: 2em;
+                color: #fff;
+            }
+            #introducao h2{
+                font-size: 1.4em;
+                color: #fff;
+            }
+            #introducao p{
+                cursor: pointer;
+                margin-top: 30px;
+                font-size: 1.2em;
+                color: #fff;
+                text-decoration: none;
+            }
+            #introducao p:hover{
+                color:#d05a20;
+                transition: 0.5s;
+            }
+            #typewriter{
+                width: 100%;
+                font-size: 3.5em;
+                color: #fff;
+                text-align: center;
+                padding-top:130px;
+            }
+            #servicos{
+                width: 100%;
+                height: 1100px;
+                text-align: center;
+                background-color: ghostwhite;
+            }  
+        #servicos h1{
+            font-size: 2em;
+            padding-top: 60px;
+            color: #282828;
+        }
+        #servicos h2{
+            font-size: 1.5em;
+            padding-top: 10px;
+            color: #282828;
+        }
+        #servicos p{
+            font-size: 1em;
+            padding-top: 10px;
+            color: #282828;
+            text-align: justify;
+        }
+        .servicos{
+            margin-top: 30px;
+            width: 100%;
+            padding: 20px 50px;
+        }
+            #portfolio{
+                width: 100%;
+                height: 1000px;
+                padding: 0 15%;
+                background-color: #282828;
+                text-align: center;
+        }
+            #portfolio h1{
+                font-size: 2em;
+                color:#fff;
+                padding-top: 60px;
+                padding-bottom: 20px;
+            }
+        .box{
+            width:100%;    
+            height: 250px;
+            margin-top: 20px;
+            background-color: black;
+        }
+            #sobre{
+                width: 100%;
+                height: 60px;
+                background-color: #d05a20;
+            }
+            #sobre:hover{
+                background-color: #FF6E27;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            #sobre h1{
+                font-size: 1.6em;
+                color:#fff;
+                text-align: center;
+                padding: 15px;
+            }
+            #contato{
+                width: 100%;
+                height: 550px;
+                padding: 25px;
+                background-color:  ghostwhite;
+                text-align: center;
+            }
+            #contato h1{
+                font-size: 2em;
+                text-align: center;
+                padding-bottom: 40px;
+                color: #282828;
+            }
+            form{
+                width: 80%;
+                margin-bottom: 30px;
+            }
+            input[type=text] {
+                width:100%;
+                border:0;
+                padding:15px;
+                font-family: 'Muli', sans-serif;
+                background-color:#fff;
+                border-radius: 3px;
+                border: #ccc solid 1px;
+            }
+            textarea {
+                width:100%;
+                height:80px;
+                border:0;
+                font-family: 'Muli', sans-serif;
+                padding:15px;
+                color:#000;
+                background-color:#fff;
+                border-radius: 3px;
+                border: #ccc solid 1px;
+            }
+            input[type=submit] {
+                border:0;
+                padding:15px;
+                background-color:#d05a20;
+                border-radius: 2px;
+                color:#FFF;
+                -webkit-transition-duration: 0.5s;
+                -moz-transition-duration: 0.5s;
+                transition-duration: 0.5s;
+            }
+            input:hover[type=submit] {
+                background-color:#FF6E27;
+                color:#fff;
+                cursor: pointer;
+            }
+            .mail {
+                font-size: 1.2em;
+                text-decoration: none;
+                color: #282828;
+            }
+            .mail:hover{
+                border-bottom:  1px #FF6E27 dashed;
+                transition: 0.3s;
+                color: #FF6E27;
+            }
+            .social-media{
+                margin-top: 20px;
+            }
+            .social-media i{
+                color: #282828;
+                padding: 8px;
+            }
+            .social-media i:hover{
+                color: #d05a20;
+                transition: 0.3s;
+            }
+            footer{
+                width: 100%;
+                height: 60px;
+                background-color: #282828;
+            }
+            footer p{
+                color:#fff;
+                text-align: center;
+                padding-top: 20px;
+            }
+            footer a{
+                text-decoration: none;
+                color:#fff;
+            }
+            footer a:hover{
+                color:#d05a20;
+                transition: 0.3s;
+            }
+    }
+    @media screen and (min-width:480px){
+
+    }
+    @media screen and (min-width:768px){
+        header{
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+        } 
+        header img{
+            float: left;
+        margin:9px 0px 0px 20px;
+        }
+        nav{
+            float: right;
+            margin:35px;
+    }
+        nav a{
+        text-decoration: none;
+        padding: 15px;
+        font-size: 1.1em;
+        color: #fff;
+        font-family: 'Muli', sans-serif;
+        }
+        nav a:hover{
+        color: #d05a20;
+        transition: 0.3s;
+        border-bottom: 2px #fff solid;
+        }
+        /* .f-nav{  /* To fix main menu container 
+            z-index: 9999;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+        } */
+
+    #introducao{
+        width: 100%;
+        height: 570px;
+        padding: 170px; 
+        text-align: center;
+        background-color: #282828;
+        }
+        #introducao a{
+            text-decoration: none;
+        }
+        #introducao h1{
+            font-size: 4em;
+            color: #fff;
+        }
+        #introducao h2{
+            font-size: 1.4em;
+            color: #fff;
+        }
+        #introducao p{
+            cursor: pointer;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #fff;
+            text-decoration: none;
+        }
+        #introducao p:hover{
+            color:#d05a20;
+            transition: 0.5s;
+        }
+        #typewriter{
+            width: 100%;
+            font-size: 3.5em;
+            color: #fff;
+            text-align: center;
+            padding-top:130px;
+        }
+
+        #sobre{
+            width: 100%;
+            height: 740px;
+            margin-top: 10px;
+            background-color: #d05a20;
+        }
+
+        #habilidades{
+            width: 100%;
+            height: 740px;
+            margin-top: 10px;
+            background-color: #d05a20;
+        }
+
+        #portfolio{
+            width: 100%;
+            height: 740px;
+            margin-top: 10px;
+            background-color: #d05a20;
+        }
+
+        #contato{
+            width: 100%;
+            height: 740px;
+            margin-top: 10px;
+            background-color: #d05a20;
+        }
+    
+    }
+    @media screen and (min-width:1024px){
+        header{
+        width: 100%;
+        height: 100px;
+        background-color: #282828;
+        } 
+        header img{
+        float: left;
+        margin:9px 0px 0px 20px;
+        }
+        nav{
+            float: right;
+            margin:35px;
+        }  
+        nav a{
+        text-decoration: none;
+        padding: 15px;
+        font-size: 1.1em;
+        color: #fff;
+        font-family: 'Muli', sans-serif;
+        }
+        nav a:hover{
+        color: #d05a20;
+        transition: 0.3s;
+        border-bottom: 2px #fff solid;
+        }
+    #introducao{
+        width: 100%;
+        height: 570px;
+        padding: 170px; 
+        text-align: center;
+        }
+        #introducao a{
+            text-decoration: none;
+        }
+        #introducao h1{
+            animation-name: fadeInDown;
+            font-size: 4em;
+            color: #fff;
+        }
+        #introducao h2{
+            font-size: 1.4em;
+            color: #fff;
+        }
+        #introducao p{
+            cursor: pointer;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #fff;
+            text-decoration: none;
+        }
+        #introducao p:hover{
+            color:#d05a20;
+            transition: 0.5s;
+        }
+        #typewriter{
+            width: 100%;
+            font-size: 3.5em;
+            color: #fff;
+            text-align: center;
+            padding-top:130px;
+        }
+        #servicos{
+            width: 100%;
+            height: 740px;
+            text-align: center;
+            background-color: ghostwhite;
+        }  
+    #servicos h1{
+        font-size: 2em;
+        padding-top: 60px;
+        color: #282828;
+    }
+    #servicos h2{
+        font-size: 1.5em;
+        padding-top: 10px;
+        color: #282828;
+    }
+    #servicos p{
+        font-size: 1em;
+        padding-top: 10px;
+        color: #282828;
+    }
+    .servicos{
+        margin-top: 70px;
+        width: 33.33%;
+        float: left;
+        padding: 50px;
+    }
+        #portfolio{
+            width: 100%;
+            height: 850px;
+            padding: 0 10%;
+            background-color: #282828;
+            text-align: center;
+    }
+        #portfolio h1{
+            font-size: 2em;
+            color:#fff;
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+    .box{
+        width:48%;    
+        height: 300px;
+        margin: 2% 1%;
+        background-color: black;
+        float: left;
+    }
+        #sobre{
+            width: 100%;
+            height: 60px;
+            background-color: #d05a20;
+        }
+        #sobre:hover{
+            background-color: #FF6E27;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        #sobre h1{
+            font-size: 1.6em;
+            color:#fff;
+            text-align: center;
+            padding: 15px;
+        }
+        #contato{
+            width: 100%;
+            height: 550px;
+            padding: 25px;
+            background-color:  ghostwhite;
+            text-align: center;
+        }
+        #contato h1{
+            font-size: 2em;
+            text-align: center;
+            padding-bottom: 40px;
+            color: #282828;
+        }
+        form{
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        input[type=text] {
+            width:100%;
+            border:0;
+            padding:15px;
+            font-family: 'Muli', sans-serif;
+            background-color:#fff;
+            border-radius: 3px;
+            border: #ccc solid 1px;
+        }
+        textarea {
+            width:100%;
+            height:80px;
+            border:0;
+            font-family: 'Muli', sans-serif;
+            padding:15px;
+            color:#000;
+            background-color:#fff;
+            border-radius: 3px;
+            border: #ccc solid 1px;
+        }
+        input[type=submit] {
+            border:0;
+            padding:15px;
+            background-color:#d05a20;
+            border-radius: 2px;
+            color:#FFF;
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+        }
+        input:hover[type=submit] {
+            background-color:#FF6E27;
+            color:#fff;
+            cursor: pointer;
+        }
+        .mail {
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #282828;
+        }
+        .mail:hover{
+            border-bottom:  1px #FF6E27 dashed;
+            transition: 0.3s;
+            color: #FF6E27;
+        }
+        .social-media{
+            margin-top: 20px;
+        }
+        .social-media i{
+            color: #282828;
+            padding: 8px;
+        }
+        .social-media i:hover{
+            color: #d05a20;
+            transition: 0.3s;
+        }
+        footer{
+            width: 100%;
+            height: 60px;
+            background-color: #282828;
+        }
+        footer p{
+            color:#fff;
+            text-align: center;
+            padding-top: 20px;
+        }
+        footer a{
+            text-decoration: none;
+            color:#fff;
+        }
+        footer a:hover{
+            color:#d05a20;
+            transition: 0.3s;
+        }
+    }
+    @media screen and (min-width:1260px){
+
+    }
+    
