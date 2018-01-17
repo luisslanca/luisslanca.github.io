@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/social_media.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:800" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/functions.js"></script>
 </head>
 <body>
@@ -28,22 +30,17 @@
 
         <div id="introducao">
             <h1>Desenvolvedor Web</h1>
-            <h2>Criando sites com
-                <span class="typewrite" data-period="1700" data-type='[ "qualidade","elegância","segurança"]'>
-                    <span class="wrapp"></span>  
-                </span>        
-            </h2>
+            <h2>Criando sites com qualidade e elegância.</h2>
             <a href="#servicos" class="scroll"><p>Ver Portfólio</br><i class="fa fa-angle-down" style="font-size:24px"></i></p></a>
         </div>
     
-    <div id="main">
         <section id="servicos">
             <h1>Serviços</h1>
 
             <div class="servicos">
-                <img src="imgs/mobile.png" alt="ICON">
+                <img src="imgs/mobile.png" alt="ICON" class="wow slideInLeft">
                 <h2>Criação de Sites</h2>
-                <p>Desenvolvimento de websites personalizados que rodam em todas as plataformas e dispositivos.</p>
+                <p>Hoje em dia possuimos diversos dispositivos, é muito importante que um site funcione igualmente em todos.</p>
             </div>  
             <div class="servicos">
                 <img src="imgs/wp.png" alt="ICON">
@@ -55,27 +52,32 @@
                 <h2>Design</h2>
                 <p>Garantir a harmonia das cores é primordial para a navegação do usuário, por isso é necessário nos atentarmos a ela.</p>
             </div>  
-
         </section>
+
+        <section class="sobre">
+            <a href="sobre.html"><h1 class="wow slideInLeft">Saiba <i class="fa fa-plus-circle" aria-hidden="true"></i></h1></a> 
+         </section>
 
         <section id="portfolio">
             <h1>Projetos</h1>
-            <div class="box"><img src="imgs/nike.jpg" alt=""></div>
+            <div class="box"><img src="" alt=""></div>
             <div class="box"></div>
+            <div class="box"><img src="" alt=""></div>
             <div class="box"></div>
         </section>
-
-    </div>
+        <section class="sobre">
+            <a href="sobre.html"><h1 class="wow slideInLeft">Ver <i class="fa fa-plus-circle" aria-hidden="true"></i></h1></a> 
+         </section>
 
     <div id="contato">
-        <h1>Contato</h1>
-        <form id="form" name="input" action="php/contato.php" method="post">
+        <h1 class="wow slideInDown">Contato</h1>
+        <form id="form" name="input" action="php/contato.php" method="post" class="wow slideInRight"> 
             <input type="text" placeholder="Nome:" name="nome" /><br><br>
             <input type="text" placeholder="Email:" name="email" /><br><br>
             <textarea placeholder="Mensagem:" name="mensagem"></textarea><br><br>
             <input type="submit" value="ENVIAR" />
         </form>
-        <p><a href="mailto:contato@luislanca.com" class="mail">contato@luislanca.com</a></p>
+        <p class="wow slideInRight"><a href="mailto:contato@luislanca.com" class="mail">contato@luislanca.com</a></p>
                     
         <div class='social-media'>
            <a href="https://www.facebook.com/lancadesigner" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a> 
@@ -84,8 +86,8 @@
            <a href="https://www.meetup.com/pt-BR/members/235719345/?op=&memberId=235719345" target="_blank"><i class="fa fa-meetup" style="font-size:24px"></i></a> 
         </div>
     </div>
-    <section id="sobre">
-        <h1>Sobre Mim <i class="fa fa-arrow-circle-right" style="font-size:24px"></i></h1>
+    <section class="sobre">
+       <a href="sobre.html"><h1 class="wow slideInLeft">Sobre Mim <i class="fa fa-arrow-circle-right" style="font-size:24px"></i></h1></a> 
     </section>
     
     <footer>
