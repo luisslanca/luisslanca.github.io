@@ -160,7 +160,7 @@ img{
                 width: 80%;
                 margin-bottom: 30px;
             }
-            input[type=text] {
+            input[type=text],[type=email] {
                 width:100%;
                 border:0;
                 padding:15px;
@@ -194,6 +194,9 @@ img{
                 background-color:#FF6E27;
                 color:#fff;
                 cursor: pointer;
+            }
+            input:required:valid {
+                border: green solid 1px;
             }
             .mail {
                 font-size: 1.2em;
