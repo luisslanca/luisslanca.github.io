@@ -1,160 +1,161 @@
-    *{
-        margin: 0 auto;
-        padding: 0 auto;
-        font-size: 100%;
-        border: none;
-        outline: none;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-                box-sizing: border-box;
-    }
-    img{
-        max-width: 100%;
-    }
-    #container{
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+#container{
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    background-color: ghostwhite;
+}
+/* .f-nav{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+} */
+
+@media screen and (min-width:320px){
+    header{
         width: 100%;
+        height: 130px;
+        text-align: center;
+        background-color: #282828;
+    } 
+    nav a{
+        text-decoration: none;
+        padding: 15px;
+        font-size: 1em;
+        color: #fff;
         font-family: 'Muli', sans-serif;
-        background-color: ghostwhite;
     }
-    /* .f-nav{
-        z-index: 9999;
-        position: fixed;
-        left: 0;
-        top: 0;
+    nav a:hover{
+        color: #d05a20;
+        transition: 0.3s;
+        border-bottom: 2px #fff solid;
+    }
+    #introducao{
         width: 100%;
-    } */
-    @media screen and (min-width:320px){
-        header{
-            width: 100%;
-            height: 130px;
-            text-align: center;
-            background-color: #282828;
-        } 
-        nav a{
-            text-decoration: none;
-            padding: 15px;
-            font-size: 1em;
-            color: #fff;
-            font-family: 'Muli', sans-serif;
-        }
-        nav a:hover{
-            color: #d05a20;
-            transition: 0.3s;
-            border-bottom: 2px #fff solid;
-        }
-        #introducao{
-            width: 100%;
-            height: 250px;
-            padding-top: 50px; 
-            text-align: center;
-            background-color: #282828;
-            }
-            #introducao a{
-                text-decoration: none;
-            }
-            #introducao h1{
-                font-size: 2em;
-                color: #fff;
-            }
-            #introducao h2{
-                font-size: 1.4em;
-                color: #fff;
-            }
-            #introducao p{
-                cursor: pointer;
-                margin-top: 30px;
-                font-size: 1.2em;
-                color: #fff;
-                text-decoration: none;
-            }
-            #introducao p:hover{
-                color:#d05a20;
-                transition: 0.5s;
-            }
-            #typewriter{
-                width: 100%;
-                font-size: 3.5em;
-                color: #fff;
-                text-align: center;
-                padding-top:130px;
-            }
-            #servicos{
-                width: 100%;
-                height: 950px;
-                text-align: center;
-                background-color: ghostwhite;
-            }  
-        #servicos h1{
-            font-size: 2em;
-            padding-top: 30px;
-            color: #282828;
-        }
-        #servicos h2{
-            font-size: 1.5em;
-            padding-top: 10px;
-            color: #282828;
-        }
-        #servicos p{
-            font-size: 1em;
-            padding-top: 10px;
-            color: #282828;
-        }
-        .servicos{
-            margin-top: 20px;
-            width: 100%;
-            padding: 20px 50px;
-        }
-            #portfolio{
-                width: 100%;
-                height: 1300px;
-                padding: 0 15%;
-                background-color: #282828;
-                text-align: center;
-        }
-            #portfolio h1{
-                font-size: 2em;
-                color:#fff;
-                padding-top: 30px;
-                padding-bottom: 20px;
-            }
-        .box{
-            width:100%;    
-            height: 250px;
-            margin-top: 20px;
-            background-color: black;
-        }
-            .sobre{
-                width: 100%;
-                height: 60px;
-                background-color: #d05a20;
-            }
-            .sobre:hover{
-                background-color: #FF6E27;
-                transition: 0.5s;
-                cursor: pointer;
-            }
-            .sobre h1{
-                font-size: 1.6em;
-                color:#fff;
-                text-align: center;
-                padding: 15px;
-            }
-            .sobre a{
-                text-decoration: none;
-            }
-            #contato{
-                width: 100%;
-                height: 550px;
-                padding: 25px;
-                background-color:  ghostwhite;
-                text-align: center;
-            }
-            #contato h1{
-                font-size: 2em;
-                text-align: center;
-                padding-bottom: 40px;
-                color: #282828;
-            }
+        height: 250px;
+        padding-top: 50px; 
+        text-align: center;
+        background-color: #282828;
+    }
+    #introducao a{
+        text-decoration: none;
+    }
+    #introducao h1{
+        font-size: 2em;
+        color: #fff;
+    }
+    #introducao h2{
+        font-size: 1.4em;
+        color: #fff;
+    }
+    #introducao p{
+        cursor: pointer;
+        margin-top: 30px;
+        font-size: 1.2em;
+        color: #fff;
+        text-decoration: none;
+    }
+    #introducao p:hover{
+        color:#d05a20;
+        transition: 0.5s;
+    }
+    #typewriter{
+        width: 100%;
+        font-size: 3.5em;
+        color: #fff;
+        text-align: center;
+        padding-top:130px;
+    }
+    #servicos{
+        width: 100%;
+        height: 950px;
+        text-align: center;
+        background-color: ghostwhite;
+    }  
+    #servicos h1{
+        font-size: 2em;
+        padding-top: 30px;
+        color: #282828;
+    }
+    #servicos h2{
+        font-size: 1.5em;
+        padding-top: 10px;
+        color: #282828;
+    }
+    #servicos p{
+        font-size: 1em;
+        padding-top: 10px;
+        color: #282828;
+    }
+    .servicos{
+        margin-top: 20px;
+        width: 100%;
+        padding: 20px 50px;
+    }
+    #portfolio{
+        width: 100%;
+        height: 1300px;
+        padding: 0 15%;
+        background-color: #282828;
+        text-align: center;
+    }
+    #portfolio h1{
+        font-size: 2em;
+        color:#fff;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .box{
+        width:100%;    
+        height: 250px;
+        margin-top: 20px;
+        background-color: black;
+    }
+    .sobre{
+        width: 100%;
+        height: 60px;
+        background-color: #d05a20;
+    }
+    .sobre:hover{
+        background-color: #FF6E27;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .sobre h1{
+        font-size: 1.6em;
+        color:#fff;
+        text-align: center;
+        padding: 15px;
+    }
+    .sobre a{
+        text-decoration: none;
+    }
+    #contato{
+        width: 100%;
+        height: 550px;
+        padding: 25px;
+        background-color:  ghostwhite;
+        text-align: center;
+    }
+    #contato h1{
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 40px;
+        color: #282828;
+    }
             form{
                 width: 80%;
                 margin-bottom: 30px;
@@ -234,110 +235,14 @@
                 transition: 0.3s;
             }
     }
-    @media screen and (min-width:480px){
+    @media screen and (min-width:480px){}
 
-    }
-    @media screen and (min-width:768px){
-        header{
-        width: 100%;
-        height: 100px;
-        background-color: blue;
-        } 
-        header img{
-            float: left;
-        margin:9px 0px 0px 20px;
-        }
-        nav{
-            float: right;
-            margin:35px;
-    }
-        nav a{
-        text-decoration: none;
-        padding: 15px;
-        font-size: 1.1em;
-        color: #fff;
-        font-family: 'Muli', sans-serif;
-        }
-        nav a:hover{
-        color: #d05a20;
-        transition: 0.3s;
-        border-bottom: 2px #fff solid;
-        }
-        /* .f-nav{  /* To fix main menu container 
-            z-index: 9999;
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 100%;
-        } */
+    @media screen and (min-width:768px){}
 
-    #introducao{
-        width: 100%;
-        height: 570px;
-        padding: 170px; 
-        text-align: center;
-        background-color: #282828;
-        }
-        #introducao a{
-            text-decoration: none;
-        }
-        #introducao h1{
-            font-size: 4em;
-            color: #fff;
-        }
-        #introducao h2{
-            font-size: 1.4em;
-            color: #fff;
-        }
-        #introducao p{
-            cursor: pointer;
-            margin-top: 30px;
-            font-size: 1.2em;
-            color: #fff;
-            text-decoration: none;
-        }
-        #introducao p:hover{
-            color:#d05a20;
-            transition: 0.5s;
-        }
-        #typewriter{
-            width: 100%;
-            font-size: 3.5em;
-            color: #fff;
-            text-align: center;
-            padding-top:130px;
-        }
-
-        #sobre{
-            width: 100%;
-            height: 740px;
-            margin-top: 10px;
-            background-color: #d05a20;
-        }
-
-        #habilidades{
-            width: 100%;
-            height: 740px;
-            margin-top: 10px;
-            background-color: #d05a20;
-        }
-
-        #portfolio{
-            width: 100%;
-            height: 740px;
-            margin-top: 10px;
-            background-color: #d05a20;
-        }
-
-        #contato{
-            width: 100%;
-            height: 740px;
-            margin-top: 10px;
-            background-color: #d05a20;
-        }
-    
-    }
     @media screen and (min-width:1024px){
+        #hamburger{
+            display: none;
+        }
         header{
         width: 100%;
         height: 100px;
@@ -467,21 +372,21 @@
         #contato{
             width: 100%;
             height: 550px;
-            padding: 25px;
+            padding: 35px;
             background-color:  ghostwhite;
             text-align: center;
         }
         #contato h1{
             font-size: 2em;
             text-align: center;
-            padding-bottom: 40px;
+            padding-bottom: 30px;
             color: #282828;
         }
         form{
             width: 50%;
             margin-bottom: 30px;
         }
-        input[type=text] {
+        input[type=text],[type=email] {
             width:100%;
             border:0;
             padding:15px;
@@ -489,17 +394,7 @@
             background-color:#fff;
             border-radius: 3px;
             border: #ccc solid 1px;
-        }
-        textarea {
-            width:100%;
-            height:80px;
-            border:0;
-            font-family: 'Muli', sans-serif;
-            padding:15px;
-            color:#000;
-            background-color:#fff;
-            border-radius: 3px;
-            border: #ccc solid 1px;
+            margin-top: 8px;
         }
         input[type=submit] {
             border:0;
@@ -515,6 +410,21 @@
             background-color:#FF6E27;
             color:#fff;
             cursor: pointer;
+        }
+        textarea{
+            width:100%;
+            height:80px;
+            border:0;
+            font-family: 'Muli', sans-serif;
+            padding:15px;
+            color:#000;
+            background-color:#fff;
+            border-radius: 3px;
+            border: #ccc solid 1px;
+            margin-top: 8px;
+        }
+        input:required:valid {
+            border: green solid 1px;
         }
         .mail {
             font-size: 1.2em;

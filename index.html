@@ -28,56 +28,59 @@
         </nav>
     </header>
 
-        <div id="introducao">
-            <h1>Desenvolvedor Web</h1>
-            <h2>Criando sites com qualidade e elegância.</h2>
-            <a href="#servicos" class="scroll"><p>Ver Portfólio</br><i class="fa fa-angle-down" style="font-size:24px"></i></p></a>
-        </div>
+    <div id="introducao">
+        <h1>Desenvolvedor Web</h1>
+        <h2>Criando sites com qualidade e elegância.</h2>
+        <a href="#servicos" class="scroll"><p>Ver Portfólio</br><i class="fa fa-angle-down" style="font-size:24px"></i></p></a>
+    </div>
     
-        <section id="servicos">
-            <h1>Serviços</h1>
+    <section id="servicos">
 
-            <div class="servicos">
-                <img src="imgs/mobile.png" alt="ICON" class="wow slideInLeft">
-                <h2>Criação de Sites</h2>
-                <p>Hoje em dia possuimos diversos dispositivos, é muito importante que um site funcione igualmente em todos.</p>
-            </div>  
-            <div class="servicos">
-                <img src="imgs/wp.png" alt="ICON">
-                <h2>WordPress</h2>
-                <p>Com essa ferramenta é possível que o próprio usuário altere seu website / blog futuramente.</p>
-            </div> 
-            <div class="servicos">
-                <img src="imgs/brush.png" alt="ICON">
-                <h2>Design</h2>
-                <p>Garantir a harmonia das cores é primordial para a navegação do usuário, por isso é necessário nos atentarmos a ela.</p>
-            </div>  
-        </section>
+        <h1>Serviços</h1>
+        <div class="servicos">
+            <img src="imgs/mobile.png" alt="ICON">
+            <h2>Criação de Sites</h2>
+            <p>Hoje em dia possuimos diversos dispositivos, é muito importante que um site funcione igualmente em todos.</p>
+        </div>  
+        <div class="servicos">
+            <img src="imgs/wp.png" alt="ICON">
+            <h2>WordPress</h2>
+            <p>Com essa ferramenta é possível que o próprio usuário altere seu website / blog futuramente.</p>
+        </div> 
+        <div class="servicos">
+            <img src="imgs/brush.png" alt="ICON">
+            <h2>Design</h2>
+            <p>Garantir a harmonia das cores é primordial para a navegação do usuário, por isso é necessário nos atentarmos a ela.</p>
+        </div>  
 
-        <section class="sobre">
-            <a href="sobre.html"><h1 class="wow slideInLeft">Saiba <i class="fa fa-plus-circle" aria-hidden="true"></i></h1></a> 
-         </section>
+    </section>
 
-        <section id="portfolio">
-            <h1>Projetos</h1>
-            <div class="box"><img src="" alt=""></div>
-            <div class="box"></div>
-            <div class="box"><img src="" alt=""></div>
-            <div class="box"></div>
-        </section>
-        <section class="sobre">
-            <a href="sobre.html"><h1 class="wow slideInLeft">Ver <i class="fa fa-plus-circle" aria-hidden="true"></i></h1></a> 
-         </section>
+    <section class="sobre">
+        <a href="sobre.html"><h1>Saiba <i class="fa fa-plus-circle" aria-hidden="true"></i></h1></a> 
+    </section>
+
+    <section id="portfolio">
+        <h1>Projetos</h1>
+        <div class="box"><img src="" alt=""></div>
+        <div class="box"></div>
+        <div class="box"><img src="" alt=""></div>
+        <div class="box"></div>
+    </section>
+
+    <section class="sobre">
+        <a href="sobre.html"><h1>Ver <i class="fa fa-plus-circle" aria-hidden="true"></i></h1></a> 
+    </section>
 
     <div id="contato">
-        <h1 class="wow slideInDown">Contato</h1>
-        <form id="form" name="input" action="php/contato.php" method="post" class="wow slideInRight"> 
-            <input type="text" placeholder="Nome:" name="nome" /><br><br>
-            <input type="text" placeholder="Email:" name="email" /><br><br>
-            <textarea placeholder="Mensagem:" name="mensagem"></textarea><br><br>
+
+        <h1>Contato</h1>
+        <form id="form" name="input" action="php/contato.php" method="post"> 
+            <input type="text" required="required" name="text"  placeholder="Nome:"/></br>
+            <input type="email" required="required" class="input-text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email:"/>
+            <textarea placeholder="Mensagem:" name="mensagem" required="required" ></textarea><br><br>
             <input type="submit" value="ENVIAR" />
         </form>
-        <p class="wow slideInRight"><a href="mailto:contato@luislanca.com" class="mail">contato@luislanca.com</a></p>
+        <p><a href="mailto:contato@luislanca.com" class="mail">contato@luislanca.com</a></p>
                     
         <div class='social-media'>
            <a href="https://www.facebook.com/lancadesigner" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a> 
@@ -85,9 +88,11 @@
            <a href="https://github.com/luisslanca" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a> 
            <a href="https://www.meetup.com/pt-BR/members/235719345/?op=&memberId=235719345" target="_blank"><i class="fa fa-meetup" style="font-size:24px"></i></a> 
         </div>
+
     </div>
+
     <section class="sobre">
-       <a href="sobre.html"><h1 class="wow slideInLeft">Sobre Mim <i class="fa fa-arrow-circle-right" style="font-size:24px"></i></h1></a> 
+       <a href="sobre.html"><h1>Sobre Mim <i class="fa fa-arrow-circle-right" style="font-size:24px"></i></h1></a> 
     </section>
     
     <footer>
