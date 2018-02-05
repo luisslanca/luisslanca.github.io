@@ -254,16 +254,16 @@ img{
         } 
         header img{
         float: left;
-        margin:9px 0px 0px 20px;
+        margin:7px 0px 0px 30px;
         }
         nav{
             float: right;
-            margin:35px;
+            margin:37px;
         }  
         nav a{
         text-decoration: none;
         padding: 15px;
-        font-size: 1.1em;
+        font-size: 1em;
         color: #fff;
         font-family: 'Muli', sans-serif;
         }
@@ -272,10 +272,18 @@ img{
         transition: 0.3s;
         border-bottom: 2px #fff solid;
         }
+        #line{
+            text-align: center;
+            background-color: #d05a20;
+            height: 5px;
+            width: 10%;
+            margin-bottom: 30px;
+            margin-top: 5px;
+        }
     #introducao{
         width: 100%;
-        height: 530px;
-        padding: 170px; 
+        height: 600px;
+        padding: 200px 0px 0px 0px; 
         text-align: center;
         }
         #introducao a{
@@ -283,11 +291,12 @@ img{
         }
         #introducao h1{
             animation-name: fadeInDown;
-            font-size: 4em;
+            font-size: 3.5em;
             color: #fff;
         }
         #introducao h2{
-            font-size: 1.4em;
+            padding-top: 10px;
+            font-size: 1.3em;
             color: #fff;
         }
         #introducao p{
@@ -310,13 +319,13 @@ img{
         }
         #servicos{
             width: 100%;
-            height: 600px;
+            height: 670px;
             text-align: center;
             background-color: ghostwhite;
         }  
     #servicos h1{
-        font-size: 2em;
-        padding-top: 40px;
+        font-size: 2.2em;
+        padding-top: 50px;
         color: #282828;
     }
     #servicos h2{
@@ -330,7 +339,7 @@ img{
         color: #282828;
     }
     .servicos{
-        margin-top: 60px;
+        margin-top: 80px;
         width: 33.33%;
         float: left;
         padding: 50px;
@@ -343,10 +352,10 @@ img{
             margin-top: -1px;
     }
         #portfolio h1{
-            font-size: 2em;
+            font-size: 2.2em;
             color:#fff;
             padding-top: 40px;
-            padding-bottom: 30px;
+            padding-bottom: 0px;
         }
     .box{
         width:46%;    
@@ -381,9 +390,9 @@ img{
             text-align: center;
         }
         #contato h1{
-            font-size: 2em;
+            font-size: 2.2em;
             text-align: center;
-            padding-bottom: 30px;
+            padding-bottom: 0px;
             color: #282828;
         }
         form{
