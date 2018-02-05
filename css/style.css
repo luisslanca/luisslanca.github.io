@@ -275,7 +275,7 @@ img{
         #line{
             text-align: center;
             background-color: #d05a20;
-            height: 5px;
+            height: 2.5px;
             width: 10%;
             margin-bottom: 30px;
             margin-top: 5px;
@@ -322,6 +322,7 @@ img{
             height: 670px;
             text-align: center;
             background-color: ghostwhite;
+            overflow: hidden;
         }  
     #servicos h1{
         font-size: 2.2em;
@@ -368,6 +369,7 @@ img{
             width: 100%;
             height: 60px;
             background-color: #d05a20;
+            overflow: hidden;
         }
         .sobre:hover{
             background-color: #FF6E27;
@@ -388,6 +390,7 @@ img{
             padding: 35px;
             background-color:  ghostwhite;
             text-align: center;
+            overflow: hidden;
         }
         #contato h1{
             font-size: 2.2em;
@@ -464,6 +467,7 @@ img{
             width: 100%;
             height: 60px;
             background-color: #282828;
+            overflow: hidden;
         }
         footer p{
             color:#fff;
